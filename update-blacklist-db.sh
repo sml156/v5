@@ -1,8 +1,9 @@
 #!/bin/bash
+# copy pasted from https://github.com/dMopp/pihole5-adlist-update-cron
 #####CHANGE STUFF HERE
 PIHOLE_DIR="/etc/pihole"
 ADLIST_URL="https://v.firebog.net/hosts/lists.php?type=nocross"
-CLEAN_ADLISTS_BEFORE_UPDATE=true
+CLEAN_ADLISTS_BEFORE_UPDATE=false
 
 
 #####DO NOT CHANGE
